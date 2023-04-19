@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    background-image: url(file:///C:/Users/megli/Desktop/VIDEO%20CALC%20TIP/A%C3%B1adir%20%25/29364-1920x1080.jpg);
+    background-attachment: fixed;
+}
+
+.calc {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0 , 0 , 0 , 0.4);
+    margin: auto;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.calc-tit {
+    width: 100%;
+}
+
+.calc-tit h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calc-inp {
+    width: 100%;
+    display: grid;
+}
+
+.calc-inp input {
+    width: 60%;
+    height: 45px;
+    margin: 5px auto;
+    border: none;
+    background-color: rgba(255 , 255 , 255 , 0.2);
+    color: white;
+    font-size: 1.05rem;
+}
+
+.calc-inp input::placeholder {
+    font-size: 15px;
+    color: rgba(255 , 255 , 255 , 0.4)
+}
+
+.calc-inp input:focus {
+    width: 60%;
+    height: 45px;
+    margin: 5px auto;
+    border: none;
+    background-color: rgba(255 , 255 , 255 , 0.2);
+    outline: none;
+    color: white;
+}
+
+.calc-inp .pp {
+    width: 61%;
+    height: 35px;
+    /* border: 0.5px solid black; */
+    background-color: rgba(255 , 255 , 255 , 0.2);
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    color: rgba(255 , 255 , 255 , 1)
+}
+
+
+.calc-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.calc-btn .but {
+    width: 30%;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+    background-color: rgba(255 , 255 , 255 , 0.6);
+    border: 0.1px solid rgba(255 , 255 , 255 , 0.4);
+    transition: 0.3s;
+    color: black;
+}
+
+.calc-btn .but:hover {
+    width: 30%;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    background-color: rgba(0 , 0 , 0 , 0.2);
+    color: rgba(255 , 255 , 255 , 0.6);
+}
+
+.calc-fot {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.calc-fot p {
+    text-align: center;
+    color: rgba(255 , 255 , 255 , 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.calc-fot a {
+    text-decoration: none;
+    color: rgba(255 , 255 , 255 , 0.6);
+}
+
+@media screen and (max-width: 500px) {
+    .calc {
+        transition: 0.5s;
+        width: 100%;
+        height: 80vh;
+    }
+    
+}
